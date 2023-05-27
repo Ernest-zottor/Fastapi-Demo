@@ -1,0 +1,1285 @@
+[
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "importPath": "app.models",
+        "description": "app.models",
+        "isExtraImport": true,
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
+        "isExtraImport": true,
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy.sql.expression",
+        "description": "sqlalchemy.sql.expression",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.expression",
+        "documentation": {}
+    },
+    {
+        "label": "TIMESTAMP",
+        "importPath": "sqlalchemy.sql.sqltypes",
+        "description": "sqlalchemy.sql.sqltypes",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.sqltypes",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm ",
+        "description": "sqlalchemy.orm ",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm ",
+        "documentation": {}
+    },
+    {
+        "label": "conint",
+        "importPath": "pydantic.types",
+        "description": "pydantic.types",
+        "isExtraImport": true,
+        "detail": "pydantic.types",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi.params",
+        "description": "fastapi.params",
+        "isExtraImport": true,
+        "detail": "fastapi.params",
+        "documentation": {}
+    },
+    {
+        "label": "randrange",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "psycopg2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psycopg2",
+        "description": "psycopg2",
+        "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "RealDictCursor",
+        "importPath": "psycopg2.extras",
+        "description": "psycopg2.extras",
+        "isExtraImport": true,
+        "detail": "psycopg2.extras",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.7890d7a771de_add_phone_number",
+        "description": "alembic.versions.7890d7a771de_add_phone_number",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('phone', sa.String(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'phone')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.7890d7a771de_add_phone_number",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.7890d7a771de_add_phone_number",
+        "description": "alembic.versions.7890d7a771de_add_phone_number",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'phone')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.7890d7a771de_add_phone_number",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "alembic.versions.7890d7a771de_add_phone_number",
+        "description": "alembic.versions.7890d7a771de_add_phone_number",
+        "peekOfCode": "revision = '7890d7a771de'\ndown_revision = 'a02b521a6d6e'\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('phone', sa.String(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###",
+        "detail": "alembic.versions.7890d7a771de_add_phone_number",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "alembic.versions.7890d7a771de_add_phone_number",
+        "description": "alembic.versions.7890d7a771de_add_phone_number",
+        "peekOfCode": "down_revision = 'a02b521a6d6e'\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('phone', sa.String(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'phone')",
+        "detail": "alembic.versions.7890d7a771de_add_phone_number",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "alembic.versions.7890d7a771de_add_phone_number",
+        "description": "alembic.versions.7890d7a771de_add_phone_number",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('phone', sa.String(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'phone')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.7890d7a771de_add_phone_number",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "alembic.versions.7890d7a771de_add_phone_number",
+        "description": "alembic.versions.7890d7a771de_add_phone_number",
+        "peekOfCode": "depends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('users', sa.Column('phone', sa.String(), nullable=False))\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_column('users', 'phone')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.7890d7a771de_add_phone_number",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.a02b521a6d6e_add_tables",
+        "description": "alembic.versions.a02b521a6d6e_add_tables",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('email', sa.String(), nullable=False),\n    sa.Column('password', sa.String(), nullable=False),\n    sa.Column('created_at', sa.TIMESTAMP(timezone=True), server_default=sa.text('now()'), nullable=True),\n    sa.Column('first_name', sa.String(), nullable=False),\n    sa.Column('last_name', sa.String(), nullable=False),\n    sa.PrimaryKeyConstraint('id'),",
+        "detail": "alembic.versions.a02b521a6d6e_add_tables",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.a02b521a6d6e_add_tables",
+        "description": "alembic.versions.a02b521a6d6e_add_tables",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('votes')\n    op.drop_index(op.f('ix_posts_id'), table_name='posts')\n    op.drop_table('posts')\n    op.drop_index(op.f('ix_users_id'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.a02b521a6d6e_add_tables",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "alembic.versions.a02b521a6d6e_add_tables",
+        "description": "alembic.versions.a02b521a6d6e_add_tables",
+        "peekOfCode": "revision = 'a02b521a6d6e'\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('email', sa.String(), nullable=False),\n    sa.Column('password', sa.String(), nullable=False),",
+        "detail": "alembic.versions.a02b521a6d6e_add_tables",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "alembic.versions.a02b521a6d6e_add_tables",
+        "description": "alembic.versions.a02b521a6d6e_add_tables",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('email', sa.String(), nullable=False),\n    sa.Column('password', sa.String(), nullable=False),\n    sa.Column('created_at', sa.TIMESTAMP(timezone=True), server_default=sa.text('now()'), nullable=True),",
+        "detail": "alembic.versions.a02b521a6d6e_add_tables",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "alembic.versions.a02b521a6d6e_add_tables",
+        "description": "alembic.versions.a02b521a6d6e_add_tables",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('email', sa.String(), nullable=False),\n    sa.Column('password', sa.String(), nullable=False),\n    sa.Column('created_at', sa.TIMESTAMP(timezone=True), server_default=sa.text('now()'), nullable=True),\n    sa.Column('first_name', sa.String(), nullable=False),",
+        "detail": "alembic.versions.a02b521a6d6e_add_tables",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "alembic.versions.a02b521a6d6e_add_tables",
+        "description": "alembic.versions.a02b521a6d6e_add_tables",
+        "peekOfCode": "depends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.Integer(), nullable=False),\n    sa.Column('email', sa.String(), nullable=False),\n    sa.Column('password', sa.String(), nullable=False),\n    sa.Column('created_at', sa.TIMESTAMP(timezone=True), server_default=sa.text('now()'), nullable=True),\n    sa.Column('first_name', sa.String(), nullable=False),\n    sa.Column('last_name', sa.String(), nullable=False),",
+        "detail": "alembic.versions.a02b521a6d6e_add_tables",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "config = context.config\nconfig.set_main_option(\n    'sqlalchemy.url', f\"postgresql://{settings.database_username}:{settings.database_password}@{settings.database_hostname}/{settings.database_name}\"\n)\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app.routers.auth",
+        "description": "app.routers.auth",
+        "peekOfCode": "def login(login_credentials: OAuth2PasswordRequestForm= Depends(), db: Session = Depends(get_db)):\n    user = db.query(models.User).filter(models.User.email == login_credentials.username).first()\n    if not user:\n        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail=\"Invalid credentials\")\n    password_verified = utils.verify(login_credentials.password, user.password)\n    if not password_verified:\n        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail=\"Invalid credentials\")\n    access_token = oauth2.create_access_token({\"email\": user.email})\n    return {'access_token':access_token, 'token_type': 'bearer'}",
+        "detail": "app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.auth",
+        "description": "app.routers.auth",
+        "peekOfCode": "router = APIRouter(tags=['Authentication'])\n@router.post('/login', response_model=schemas.Token)\ndef login(login_credentials: OAuth2PasswordRequestForm= Depends(), db: Session = Depends(get_db)):\n    user = db.query(models.User).filter(models.User.email == login_credentials.username).first()\n    if not user:\n        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail=\"Invalid credentials\")\n    password_verified = utils.verify(login_credentials.password, user.password)\n    if not password_verified:\n        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail=\"Invalid credentials\")\n    access_token = oauth2.create_access_token({\"email\": user.email})",
+        "detail": "app.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_posts",
+        "kind": 2,
+        "importPath": "app.routers.post",
+        "description": "app.routers.post",
+        "peekOfCode": "def get_posts(db: Session = Depends(get_db), current_user: dict = Depends(oauth2.get_current_user), limit: int=5, skip: int=0):\n    #This is how to get posts for a particular user\n    # posts = db.query(models.Post).filter(models.Post.user_id == current_user.id).all()\n    # posts = db.query(models.Post).limit(limit).offset(skip).all()\n    results = db.query(models.Post, func.count(models.Votes.post_id).label('votes')\n                       ).join(models.Votes, models.Votes.post_id==models.Post.id, isouter=True\n                              ).group_by(models.Post.id).limit(limit).offset(skip).all()\n    return results\n@router.post('/', status_code=status.HTTP_201_CREATED, response_model=schemas.PostResponse)\ndef create_posts(post: schemas.PostCreate, db: Session=Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):",
+        "detail": "app.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "create_posts",
+        "kind": 2,
+        "importPath": "app.routers.post",
+        "description": "app.routers.post",
+        "peekOfCode": "def create_posts(post: schemas.PostCreate, db: Session=Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):\n    # print(current_user.email)\n    new_post = models.Post(user_id= current_user.id ,**post.dict())\n    # new_post.user_id = current_user.id\n    db.add(new_post)\n    db.commit()\n    db.refresh(new_post)\n    return new_post\n@router.get('/{id}' , response_model=schemas.PostOut)\ndef get_post(id: int, db: Session=Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):",
+        "detail": "app.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "get_post",
+        "kind": 2,
+        "importPath": "app.routers.post",
+        "description": "app.routers.post",
+        "peekOfCode": "def get_post(id: int, db: Session=Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):\n    # post_query = db.query(models.Post).filter(models.Post.id ==id)\n    # post = post_query.first()\n    post = db.query(models.Post, func.count(models.Votes.post_id).label('votes')\n                       ).join(models.Votes, models.Votes.post_id==models.Post.id, isouter=True).filter(models.Post.id ==id).group_by(models.Post.id).first()\n    if post is None:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                            detail=f'post with id: {id} was not found')\n    # Reason for post.Post.user_id is in learning \n    if post.Post.user_id != current_user.id:",
+        "detail": "app.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "delete_post",
+        "kind": 2,
+        "importPath": "app.routers.post",
+        "description": "app.routers.post",
+        "peekOfCode": "def delete_post(id: int, db: Session = Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):\n    # print(current_user.email)\n    post_query = db.query(models.Post).filter(models.Post.id ==id)\n    post = post_query.first()\n    if post is None:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                            detail=f'post with id: {id} was not found')\n    if post.user_id != current_user.id:\n        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, \n                            detail='Not authorized to perform requested action')",
+        "detail": "app.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "update_post",
+        "kind": 2,
+        "importPath": "app.routers.post",
+        "description": "app.routers.post",
+        "peekOfCode": "def update_post(id: int, post: schemas.PostCreate, db: Session = Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):\n    post_query = db.query(models.Post).filter(models.Post.id ==id)\n    db_post = post_query.first()\n    if db_post is None:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                            detail=f'post with id: {id} was not found')\n    if db_post.user_id != current_user.id:\n        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, \n                            detail='Not authorized to perform requested action')\n    post_query.update(post.dict(), synchronize_session=False)",
+        "detail": "app.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.post",
+        "description": "app.routers.post",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/posts\",\n    tags=['Posts']\n)\n@router.get('/', response_model=List[schemas.PostOut])\n# @router.get('/')\ndef get_posts(db: Session = Depends(get_db), current_user: dict = Depends(oauth2.get_current_user), limit: int=5, skip: int=0):\n    #This is how to get posts for a particular user\n    # posts = db.query(models.Post).filter(models.Post.user_id == current_user.id).all()\n    # posts = db.query(models.Post).limit(limit).offset(skip).all()",
+        "detail": "app.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "app.routers.user",
+        "description": "app.routers.user",
+        "peekOfCode": "def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):\n    hashed_password = utils.hash(user.password)\n    user.password = hashed_password\n    new_user = models.User(**user.dict())\n    db.add(new_user)\n    db.commit()\n    db.refresh(new_user)\n    return new_user\n@router.get('/{id}', response_model=schemas.UserResponse)\ndef get_user(id: int, db: Session = Depends(get_db)):",
+        "detail": "app.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "app.routers.user",
+        "description": "app.routers.user",
+        "peekOfCode": "def get_user(id: int, db: Session = Depends(get_db)):\n    user = db.query(models.User).filter(models.User.id == id).first()\n    if not user:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                            detail=f'user with id: {id} was not found')\n    return user\n@router.get('/',response_model= List[schemas.UserResponse])\ndef get_all_users(db: Session = Depends(get_db)):\n    users = db.query(models.User).all()\n    return users",
+        "detail": "app.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_users",
+        "kind": 2,
+        "importPath": "app.routers.user",
+        "description": "app.routers.user",
+        "peekOfCode": "def get_all_users(db: Session = Depends(get_db)):\n    users = db.query(models.User).all()\n    return users",
+        "detail": "app.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.user",
+        "description": "app.routers.user",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/users\",\n    tags=[\"Users\"]\n)\n@router.post(\"/\", status_code=status.HTTP_201_CREATED, response_model=schemas.UserResponse)\ndef create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):\n    hashed_password = utils.hash(user.password)\n    user.password = hashed_password\n    new_user = models.User(**user.dict())\n    db.add(new_user)",
+        "detail": "app.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "vote",
+        "kind": 2,
+        "importPath": "app.routers.vote",
+        "description": "app.routers.vote",
+        "peekOfCode": "def vote(vote:schemas.Vote, db: Session=Depends(get_db), current_user: dict=Depends(oauth2.get_current_user)):\n    post = db.query(models.Post).filter(models.Post.id == vote.post_id).first()\n    if not post:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f'Post with id {vote.post_id} does not exist')\n    vote_query = db.query(models.Votes).filter(models.Votes.post_id==vote.post_id, models.Votes.user_id==current_user.id)\n    found_vote = vote_query.first()\n    if vote.dir == 1:\n        if found_vote:\n            raise HTTPException(status_code=status.HTTP_409_CONFLICT, detail=f'user {current_user.id} has already voted on post {vote.post_id}')\n        new_vote = models.Votes(post_id=vote.post_id, user_id=current_user.id)",
+        "detail": "app.routers.vote",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.routers.vote",
+        "description": "app.routers.vote",
+        "peekOfCode": "router = APIRouter(\n    prefix='/vote',\n    tags=['Vote']\n)\n@router.post('/', status_code=status.HTTP_201_CREATED)\ndef vote(vote:schemas.Vote, db: Session=Depends(get_db), current_user: dict=Depends(oauth2.get_current_user)):\n    post = db.query(models.Post).filter(models.Post.id == vote.post_id).first()\n    if not post:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f'Post with id {vote.post_id} does not exist')\n    vote_query = db.query(models.Votes).filter(models.Votes.post_id==vote.post_id, models.Votes.user_id==current_user.id)",
+        "detail": "app.routers.vote",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    database_hostname: str\n    database_port: str\n    database_password: str\n    database_name: str\n    database_username: str\n    secret_key: str\n    algorithm: str\n    access_token_expire_minutes: int\n    class Config:",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "app.config",
+        "description": "app.config",
+        "peekOfCode": "settings = Settings()\n# print(settings.dict())",
+        "detail": "app.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = f\"postgresql://{settings.database_username}:{settings.database_password}@{settings.database_hostname}/{settings.database_name}\"\nengine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.database",
+        "description": "app.database",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.database",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "app = FastAPI()\n# origins = ['https://www.google.com', 'https://www.youtube.com'] This will only allow google and youtube to communicate to our API\norigins = ['*'] # The wildcard allows all.\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "origins = ['*'] # The wildcard allows all.\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\napp.include_router(post.router)\napp.include_router(user.router)",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class Post(Base):\n    __tablename__ = 'posts'\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, nullable=False)\n    content = Column(String, nullable=False)\n    published = Column(Boolean, default=True)\n    created_at = Column(TIMESTAMP(timezone=True), nullable=True, server_default=text('now()'))\n    user_id = Column(Integer, ForeignKey('users.id', ondelete='CASCADE'), nullable=False)\n    owner = relationship('User') # This will help retrieve the user over the fly\nclass User(Base):",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class User(Base):\n    __tablename__ = 'users'\n    id = Column(Integer, primary_key=True, nullable=False, index=True)\n    email = Column(String, nullable=False, unique=True)\n    password = Column(String, nullable=False)\n    created_at = Column(TIMESTAMP(timezone=True), nullable=True, server_default=text('now()'))\n    first_name = Column(String, nullable=False)\n    last_name = Column(String, nullable=False)\n    phone = Column(String, nullable=False)\nclass Votes(Base):",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "Votes",
+        "kind": 6,
+        "importPath": "app.models",
+        "description": "app.models",
+        "peekOfCode": "class Votes(Base):\n    __tablename__ = 'votes'\n    user_id = Column(Integer, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), primary_key=True)\n    post_id = Column(Integer, ForeignKey(\"posts.id\", ondelete=\"CASCADE\"), primary_key=True)",
+        "detail": "app.models",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "app.oauth2",
+        "description": "app.oauth2",
+        "peekOfCode": "def create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode['exp'] = expire\n    # to_encode.update({'exp':expire}) This works too\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_access_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=ALGORITHM)",
+        "detail": "app.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "verify_access_token",
+        "kind": 2,
+        "importPath": "app.oauth2",
+        "description": "app.oauth2",
+        "peekOfCode": "def verify_access_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=ALGORITHM)\n        email: str = payload.get('email')\n        if email is None:\n            raise credentials_exception\n        # TokenData schema is use to validate the email\n        token_data = schemas.TokenData(email=email)\n    except JWTError:\n        raise credentials_exception",
+        "detail": "app.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "app.oauth2",
+        "description": "app.oauth2",
+        "peekOfCode": "def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):\n    credentials_exception = HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, \n                                          detail='Could not validate credentials', headers={'WWW-Authenticate': 'Bearer'})\n    token =  verify_access_token(token, credentials_exception)\n    user = db.query(models.User).filter(models.User.email == token.email).first()\n    return user",
+        "detail": "app.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "app.oauth2",
+        "description": "app.oauth2",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl='login')\nSECRET_KEY = settings.secret_key\nALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode['exp'] = expire\n    # to_encode.update({'exp':expire}) This works too\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "app.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "app.oauth2",
+        "description": "app.oauth2",
+        "peekOfCode": "SECRET_KEY = settings.secret_key\nALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode['exp'] = expire\n    # to_encode.update({'exp':expire}) This works too\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt",
+        "detail": "app.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "app.oauth2",
+        "description": "app.oauth2",
+        "peekOfCode": "ALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode['exp'] = expire\n    # to_encode.update({'exp':expire}) This works too\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_access_token(token: str, credentials_exception):",
+        "detail": "app.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "app.oauth2",
+        "description": "app.oauth2",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode['exp'] = expire\n    # to_encode.update({'exp':expire}) This works too\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_access_token(token: str, credentials_exception):\n    try:",
+        "detail": "app.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class UserBase(BaseModel):\n    email: EmailStr\n    first_name: str\n    last_name:str \nclass UserCreate(UserBase):\n    password: str\nclass UserResponse(UserBase):\n    id: int\n    created_at: datetime\n    class Config:",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class UserCreate(UserBase):\n    password: str\nclass UserResponse(UserBase):\n    id: int\n    created_at: datetime\n    class Config:\n        orm_mode = True\nclass PostBase(BaseModel):\n    title: str\n    content: str",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class UserResponse(UserBase):\n    id: int\n    created_at: datetime\n    class Config:\n        orm_mode = True\nclass PostBase(BaseModel):\n    title: str\n    content: str\n    published: bool = True\nclass PostCreate(PostBase):",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostBase",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class PostBase(BaseModel):\n    title: str\n    content: str\n    published: bool = True\nclass PostCreate(PostBase):\n    pass\nclass PostResponse(PostBase):\n    id: int\n    created_at: datetime\n    user_id: int",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostCreate",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class PostCreate(PostBase):\n    pass\nclass PostResponse(PostBase):\n    id: int\n    created_at: datetime\n    user_id: int\n    owner: UserResponse  # The UserResponse class must always be above the Post. This will return the UserResponse schema\n    class Config:\n        orm_mode = True\nclass PostOut(BaseModel):",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostResponse",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class PostResponse(PostBase):\n    id: int\n    created_at: datetime\n    user_id: int\n    owner: UserResponse  # The UserResponse class must always be above the Post. This will return the UserResponse schema\n    class Config:\n        orm_mode = True\nclass PostOut(BaseModel):\n    Post: PostResponse\n    votes: int",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostOut",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class PostOut(BaseModel):\n    Post: PostResponse\n    votes: int\n    class Config:\n        orm_mode = True\n# class UserLogin(BaseModel):\n#     email: EmailStr\n#     password: str\nclass Token(BaseModel):\n    access_token: str",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    email: Optional[EmailStr] = None\nclass Vote(BaseModel):\n    post_id: int\n    dir: conint(ge=0, le=1) # We want to know whether the user is liking or unliking a post. 0 means like and 1 means otherwise. CONINT will make sure the values will be between 0 and 1",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class TokenData(BaseModel):\n    email: Optional[EmailStr] = None\nclass Vote(BaseModel):\n    post_id: int\n    dir: conint(ge=0, le=1) # We want to know whether the user is liking or unliking a post. 0 means like and 1 means otherwise. CONINT will make sure the values will be between 0 and 1",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "Vote",
+        "kind": 6,
+        "importPath": "app.schemas",
+        "description": "app.schemas",
+        "peekOfCode": "class Vote(BaseModel):\n    post_id: int\n    dir: conint(ge=0, le=1) # We want to know whether the user is liking or unliking a post. 0 means like and 1 means otherwise. CONINT will make sure the values will be between 0 and 1",
+        "detail": "app.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "hash",
+        "kind": 2,
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "peekOfCode": "def hash(password: str):\n    return pwd_context.hash(password)\ndef verify(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)",
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "verify",
+        "kind": 2,
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "peekOfCode": "def verify(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)",
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "app.utils",
+        "description": "app.utils",
+        "peekOfCode": "pwd_context = CryptContext(schemes=['bcrypt'], deprecated='auto')\ndef hash(password: str):\n    return pwd_context.hash(password)\ndef verify(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)",
+        "detail": "app.utils",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "__pycache__.test.teest",
+        "description": "__pycache__.test.teest",
+        "peekOfCode": "class Post(BaseModel):\n    # id: Optional[int] = None\n    title: str\n    content: str\n    published: bool = True\n    # rating: Optional[int] = None\nwhile True:\n    try:\n        conn = dbms.connect(host='localhost', database='fastapi', user='postgres', \n                            password='Eclipse@1993', cursor_factory=RealDictCursor)",
+        "detail": "__pycache__.test.teest",
+        "documentation": {}
+    },
+    {
+        "label": "find_post",
+        "kind": 2,
+        "importPath": "__pycache__.test.teest",
+        "description": "__pycache__.test.teest",
+        "peekOfCode": "def find_post(id: int):\n    for post in my_posts:\n        if post['id'] == id:\n            return post\ndef find_index_post(id: int):\n    for i, post in enumerate(my_posts):\n        if post['id'] == id:\n            return i\n@app.get(\"/\")\nasync def root():",
+        "detail": "__pycache__.test.teest",
+        "documentation": {}
+    },
+    {
+        "label": "find_index_post",
+        "kind": 2,
+        "importPath": "__pycache__.test.teest",
+        "description": "__pycache__.test.teest",
+        "peekOfCode": "def find_index_post(id: int):\n    for i, post in enumerate(my_posts):\n        if post['id'] == id:\n            return i\n@app.get(\"/\")\nasync def root():\n    return {\"message\": \"Hello World\"}\n@app.get('/posts')\ndef get_posts():\n    cursor.execute(\"\"\"SELECT * FROM posts\"\"\")",
+        "detail": "__pycache__.test.teest",
+        "documentation": {}
+    },
+    {
+        "label": "get_posts",
+        "kind": 2,
+        "importPath": "__pycache__.test.teest",
+        "description": "__pycache__.test.teest",
+        "peekOfCode": "def get_posts():\n    cursor.execute(\"\"\"SELECT * FROM posts\"\"\")\n    posts = cursor.fetchall()\n    # print(posts)\n    return {'data': posts}\n# @app.post('/createposts')\n# def create_posts(payload: dict = Body(...)):\n#     print(payload)\n#     return {'message': payload['title']}\n@app.post('/posts', status_code=status.HTTP_201_CREATED)",
+        "detail": "__pycache__.test.teest",
+        "documentation": {}
+    },
+    {
+        "label": "create_posts",
+        "kind": 2,
+        "importPath": "__pycache__.test.teest",
+        "description": "__pycache__.test.teest",
+        "peekOfCode": "def create_posts(post: Post):\n    # post_dict  = post.dict()\n    # post_dict['id'] = randrange(0,10000)\n    # my_posts.append(post_dict)\n    cursor.execute(\"\"\"INSERT INTO posts(title, content, published) VALUES(%s, %s, %s) RETURNING * \"\"\", (post.title, post.content,post.published))\n    new_post = cursor.fetchone()\n    conn.commit()\n    return {'message': new_post}\n@app.get('/posts/{id}')\ndef get_post(id: int, response: Response):",
+        "detail": "__pycache__.test.teest",
+        "documentation": {}
+    },
+    {
+        "label": "get_post",
+        "kind": 2,
+        "importPath": "__pycache__.test.teest",
+        "description": "__pycache__.test.teest",
+        "peekOfCode": "def get_post(id: int, response: Response):\n    post = find_post(id)\n    if not post:\n        # response.status_code = status.HTTP_404_NOT_FOUND\n        # return {'message': f'post with id: {id} was not found'}\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                            detail=f'post with id: {id} was not found')\n    return {'post_detail': post}\n@app.delete('/posts/{id}', status_code=status.HTTP_204_NO_CONTENT)\ndef delete_post(id: int):",
+        "detail": "__pycache__.test.teest",
+        "documentation": {}
+    },
+    {
+        "label": "delete_post",
+        "kind": 2,
+        "importPath": "__pycache__.test.teest",
+        "description": "__pycache__.test.teest",
+        "peekOfCode": "def delete_post(id: int):\n    index = find_index_post(id)\n    if index == None:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                            detail=f'post with id: {id} does not exist')\n    my_posts.pop(index)\n    return Response(status_code=status.HTTP_204_NO_CONTENT)\n@app.put('/post{id}')\ndef update_post(id: int, post: Post):\n    index = find_index_post(id)",
+        "detail": "__pycache__.test.teest",
+        "documentation": {}
+    },
+    {
+        "label": "update_post",
+        "kind": 2,
+        "importPath": "__pycache__.test.teest",
+        "description": "__pycache__.test.teest",
+        "peekOfCode": "def update_post(id: int, post: Post):\n    index = find_index_post(id)\n    if index == None:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                            detail=f'post with id: {id} was not found')\n    post_dict = post.dict()\n    post_dict['id'] = id\n    return {'post_detail': post}",
+        "detail": "__pycache__.test.teest",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "__pycache__.test.teest",
+        "description": "__pycache__.test.teest",
+        "peekOfCode": "app = FastAPI()\nclass Post(BaseModel):\n    # id: Optional[int] = None\n    title: str\n    content: str\n    published: bool = True\n    # rating: Optional[int] = None\nwhile True:\n    try:\n        conn = dbms.connect(host='localhost', database='fastapi', user='postgres', ",
+        "detail": "__pycache__.test.teest",
+        "documentation": {}
+    },
+    {
+        "label": "my_posts",
+        "kind": 5,
+        "importPath": "__pycache__.test.teest",
+        "description": "__pycache__.test.teest",
+        "peekOfCode": "my_posts = [{'id': 1,'title': 'title of post 1', 'content': 'content of post1'},\n            {'id':2, 'title':'favourite foods', 'content': 'I like pizza'}]\ndef find_post(id: int):\n    for post in my_posts:\n        if post['id'] == id:\n            return post\ndef find_index_post(id: int):\n    for i, post in enumerate(my_posts):\n        if post['id'] == id:\n            return i",
+        "detail": "__pycache__.test.teest",
+        "documentation": {}
+    }
+]
