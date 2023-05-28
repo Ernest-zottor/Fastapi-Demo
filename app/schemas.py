@@ -7,7 +7,8 @@ from pydantic.types import conint
 class UserBase(BaseModel):
     email: EmailStr
     first_name: str
-    last_name:str 
+    last_name:str
+    phone:str 
 
 class UserCreate(UserBase):
     password: str

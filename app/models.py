@@ -27,7 +27,7 @@ class User(Base):
     created_at = Column(TIMESTAMP(timezone=True), nullable=True, server_default=text('now()'))
     first_name = Column(String, nullable=False)
     last_name = Column(String, nullable=False)
-    
+    phone = Column(String, nullable=False)
 
 class Votes(Base):
     __tablename__ = 'votes'
