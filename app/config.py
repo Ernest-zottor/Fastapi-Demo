@@ -17,3 +17,4 @@ class Settings(BaseSettings):
 
 settings = Settings()
 # print(settings.dict())
+# postgres://eclipse:jDMmNpxz1u2EhnK0iIBn0BiUjKlxDtNy@dpg-chos72qk728ivvull1f0-a.oregon-postgres.render.com/eclipse_fastapi

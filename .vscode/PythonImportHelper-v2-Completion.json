@@ -918,7 +918,7 @@
         "kind": 5,
         "importPath": "app.config",
         "description": "app.config",
-        "peekOfCode": "settings = Settings()\n# print(settings.dict())",
+        "peekOfCode": "settings = Settings()\n# print(settings.dict())\n# postgres://eclipse:jDMmNpxz1u2EhnK0iIBn0BiUjKlxDtNy@dpg-chos72qk728ivvull1f0-a.oregon-postgres.render.com/eclipse_fastapi",
         "detail": "app.config",
         "documentation": {}
     },
@@ -936,7 +936,7 @@
         "kind": 5,
         "importPath": "app.database",
         "description": "app.database",
-        "peekOfCode": "SQLALCHEMY_DATABASE_URL = f\"postgresql://{settings.database_username}:{settings.database_password}@{settings.database_hostname}/{settings.database_name}\"\nengine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = f\"postgresql://{settings.database_username}:{settings.database_password}@{settings.database_hostname}/{settings.database_name}\"\n# postgres://eclipse:jDMmNpxz1u2EhnK0iIBn0BiUjKlxDtNy@dpg-chos72qk728ivvull1f0-a.oregon-postgres.render.com/eclipse_fastapi\nengine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
         "detail": "app.database",
         "documentation": {}
     },
@@ -981,7 +981,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "origins = ['*'] # The wildcard allows all.\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\napp.include_router(post.router)\napp.include_router(user.router)",
+        "peekOfCode": "origins = ['*'] # The wildcard allows all.\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)\nprint(hash('password'))\napp.include_router(post.router)",
         "detail": "app.main",
         "documentation": {}
     },
@@ -999,7 +999,7 @@
         "kind": 6,
         "importPath": "app.models",
         "description": "app.models",
-        "peekOfCode": "class User(Base):\n    __tablename__ = 'users'\n    id = Column(Integer, primary_key=True, nullable=False, index=True)\n    email = Column(String, nullable=False, unique=True)\n    password = Column(String, nullable=False)\n    created_at = Column(TIMESTAMP(timezone=True), nullable=True, server_default=text('now()'))\n    first_name = Column(String, nullable=False)\n    last_name = Column(String, nullable=False)\n    phone = Column(String, nullable=False)\nclass Votes(Base):",
+        "peekOfCode": "class User(Base):\n    __tablename__ = 'users'\n    id = Column(Integer, primary_key=True, nullable=False, index=True)\n    email = Column(String, nullable=False, unique=True)\n    password = Column(String, nullable=False)\n    created_at = Column(TIMESTAMP(timezone=True), nullable=True, server_default=text('now()'))\n    first_name = Column(String, nullable=False)\n    last_name = Column(String, nullable=False)\nclass Votes(Base):\n    __tablename__ = 'votes'",
         "detail": "app.models",
         "documentation": {}
     },
