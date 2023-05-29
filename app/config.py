@@ -1,6 +1,7 @@
 # from pydantic import BaseSettings
 from pydantic import BaseSettings
-from dotenv import load_dotenv
+
+
 class Settings(BaseSettings):
     database_hostname: str
     database_port: str
@@ -10,6 +11,12 @@ class Settings(BaseSettings):
     secret_key: str
     algorithm: str
     access_token_expire_minutes: int
+    mail_username: str
+    mail_password: str
+    mail_from: str
+    mail_port: int
+    mail_server: str
+
 
     class Config:
         env_file = '.env'

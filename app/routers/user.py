@@ -3,6 +3,7 @@ from typing import  List
 from ..database import get_db
 from sqlalchemy.orm import Session
 from .. import models, schemas, utils
+from ..email import send_registration_email
 
 
 
@@ -15,7 +16,12 @@ router = APIRouter(
 
 
 @router.post("/", status_code=status.HTTP_201_CREATED, response_model=schemas.UserResponse)
-def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
+async def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
+    
+    existing_email = db.query(models.User).filter(models.User.email == user.email).first()
+
+    if existing_email:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail='email already exists')
     
     hashed_password = utils.hash(user.password)
     user.password = hashed_password
@@ -23,7 +29,11 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     db.add(new_user)
     db.commit()
     db.refresh(new_user)
-
+    await send_registration_email(subject='Registration Successful', email_to=new_user.email, 
+                            body={
+                                'title': 'Registration Successful',
+                                'name': new_user.first_name +' '+ new_user.last_name
+                            })
     return new_user
 
 @router.get('/{id}', response_model=schemas.UserResponse)
