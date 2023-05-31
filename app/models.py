@@ -16,7 +16,7 @@ class Post(Base):
 
     user_id = Column(Integer, ForeignKey('users.id', ondelete='CASCADE'), nullable=False)
 
-    owner = relationship('User') # This will help retrieve the user over the fly
+    owner = relationship('User', back_populates='posts') # This will help retrieve the user over the fly
 
 class User(Base):
     __tablename__ = 'users'
@@ -27,7 +27,7 @@ class User(Base):
     created_at = Column(TIMESTAMP(timezone=True), nullable=True, server_default=text('now()'))
     first_name = Column(String, nullable=False)
     last_name = Column(String, nullable=False)
-    # phone = Column(String, nullable=False)
+    posts =  relationship('Post', back_populates='owner')
 
 class Votes(Base):
     __tablename__ = 'votes'

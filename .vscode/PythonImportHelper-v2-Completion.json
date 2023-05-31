@@ -113,14 +113,6 @@
         "documentation": {}
     },
     {
-        "label": "Post",
-        "importPath": "app.models",
-        "description": "app.models",
-        "isExtraImport": true,
-        "detail": "app.models",
-        "documentation": {}
-    },
-    {
         "label": "settings",
         "importPath": "app.config",
         "description": "app.config",
@@ -788,7 +780,7 @@
         "kind": 2,
         "importPath": "app.routers.post",
         "description": "app.routers.post",
-        "peekOfCode": "def get_posts(db: Session = Depends(get_db), current_user: dict = Depends(oauth2.get_current_user), limit: int=5, skip: int=0):\n    #This is how to get posts for a particular user\n    # posts = db.query(models.Post).filter(models.Post.user_id == current_user.id).all()\n    # posts = db.query(models.Post).limit(limit).offset(skip).all()\n    results = db.query(models.Post, func.count(models.Votes.post_id).label('votes')\n                       ).join(models.Votes, models.Votes.post_id==models.Post.id, isouter=True\n                              ).group_by(models.Post.id).limit(limit).offset(skip).all()\n    return results\n@router.post('/', status_code=status.HTTP_201_CREATED, response_model=schemas.PostResponse)\ndef create_posts(post: schemas.PostCreate, db: Session=Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):",
+        "peekOfCode": "def get_posts(db: Session = Depends(get_db), current_user: dict = Depends(oauth2.get_current_user), limit: int=5, skip: int=0):\n    # posts = db.query(models.Post).limit(limit).offset(skip).all()\n    # print([post.owner.id for post in current_user.posts])\n    results = db.query(models.Post, func.count(models.Votes.post_id).label('votes')\n                       ).join(models.Votes, models.Votes.post_id==models.Post.id, isouter=True\n                              ).group_by(models.Post.id).limit(limit).offset(skip).all()\n    return results\n@router.post('/', status_code=status.HTTP_201_CREATED, response_model=schemas.PostResponse)\ndef create_posts(post: schemas.PostCreate, db: Session=Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):\n    new_post = models.Post(user_id= current_user.id ,**post.dict())",
         "detail": "app.routers.post",
         "documentation": {}
     },
@@ -797,7 +789,7 @@
         "kind": 2,
         "importPath": "app.routers.post",
         "description": "app.routers.post",
-        "peekOfCode": "def create_posts(post: schemas.PostCreate, db: Session=Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):\n    # print(current_user.email)\n    new_post = models.Post(user_id= current_user.id ,**post.dict())\n    # new_post.user_id = current_user.id\n    db.add(new_post)\n    db.commit()\n    db.refresh(new_post)\n    return new_post\n@router.get('/{id}' , response_model=schemas.PostOut)\ndef get_post(id: int, db: Session=Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):",
+        "peekOfCode": "def create_posts(post: schemas.PostCreate, db: Session=Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):\n    new_post = models.Post(user_id= current_user.id ,**post.dict())\n    db.add(new_post)\n    db.commit()\n    db.refresh(new_post)\n    return new_post\n@router.get('/{id}' , response_model=schemas.PostOut)\ndef get_post(id: int, db: Session=Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):\n    # post_query = db.query(models.Post).filter(models.Post.id ==id)\n    # post_query = db.query(models.Post).get(id)",
         "detail": "app.routers.post",
         "documentation": {}
     },
@@ -806,7 +798,7 @@
         "kind": 2,
         "importPath": "app.routers.post",
         "description": "app.routers.post",
-        "peekOfCode": "def get_post(id: int, db: Session=Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):\n    # post_query = db.query(models.Post).filter(models.Post.id ==id)\n    # post = post_query.first()\n    post = db.query(models.Post, func.count(models.Votes.post_id).label('votes')\n                       ).join(models.Votes, models.Votes.post_id==models.Post.id, isouter=True).filter(models.Post.id ==id).group_by(models.Post.id).first()\n    if post is None:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                            detail=f'post with id: {id} was not found')\n    # Reason for post.Post.user_id is in learning \n    if post.Post.user_id != current_user.id:",
+        "peekOfCode": "def get_post(id: int, db: Session=Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):\n    # post_query = db.query(models.Post).filter(models.Post.id ==id)\n    # post_query = db.query(models.Post).get(id)\n    post = db.query(models.Post, func.count(models.Votes.post_id).label('votes')\n                       ).join(models.Votes, models.Votes.post_id==models.Post.id, isouter=True).filter(models.Post.id ==id).group_by(models.Post.id).first()\n    if post is None:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                            detail=f'post with id: {id} was not found')\n    # Reason for post.Post.user_id is in learning.py \n    if post.Post.user_id != current_user.id:",
         "detail": "app.routers.post",
         "documentation": {}
     },
@@ -815,7 +807,7 @@
         "kind": 2,
         "importPath": "app.routers.post",
         "description": "app.routers.post",
-        "peekOfCode": "def delete_post(id: int, db: Session = Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):\n    # print(current_user.email)\n    post_query = db.query(models.Post).filter(models.Post.id ==id)\n    post = post_query.first()\n    if post is None:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                            detail=f'post with id: {id} was not found')\n    if post.user_id != current_user.id:\n        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, \n                            detail='Not authorized to perform requested action')",
+        "peekOfCode": "def delete_post(id: int, db: Session = Depends(get_db), current_user: dict = Depends(oauth2.get_current_user)):\n    post_query = db.query(models.Post).filter(models.Post.id ==id)\n    post = post_query.first()\n    if post is None:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                            detail=f'post with id: {id} was not found')\n    if post.user_id != current_user.id:\n        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, \n                            detail='Not authorized to perform requested action')\n    post_query.delete(synchronize_session=False)",
         "detail": "app.routers.post",
         "documentation": {}
     },
@@ -833,7 +825,7 @@
         "kind": 5,
         "importPath": "app.routers.post",
         "description": "app.routers.post",
-        "peekOfCode": "router = APIRouter(\n    prefix=\"/posts\",\n    tags=['Posts']\n)\n@router.get('/', response_model=List[schemas.PostOut])\n# @router.get('/')\ndef get_posts(db: Session = Depends(get_db), current_user: dict = Depends(oauth2.get_current_user), limit: int=5, skip: int=0):\n    #This is how to get posts for a particular user\n    # posts = db.query(models.Post).filter(models.Post.user_id == current_user.id).all()\n    # posts = db.query(models.Post).limit(limit).offset(skip).all()",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/posts\",\n    tags=['Posts']\n)\n@router.get('/', response_model=List[schemas.PostOut])\ndef get_posts(db: Session = Depends(get_db), current_user: dict = Depends(oauth2.get_current_user), limit: int=5, skip: int=0):\n    # posts = db.query(models.Post).limit(limit).offset(skip).all()\n    # print([post.owner.id for post in current_user.posts])\n    results = db.query(models.Post, func.count(models.Votes.post_id).label('votes')\n                       ).join(models.Votes, models.Votes.post_id==models.Post.id, isouter=True",
         "detail": "app.routers.post",
         "documentation": {}
     },
@@ -1004,7 +996,7 @@
         "kind": 6,
         "importPath": "app.models",
         "description": "app.models",
-        "peekOfCode": "class Post(Base):\n    __tablename__ = 'posts'\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, nullable=False)\n    content = Column(String, nullable=False)\n    published = Column(Boolean, default=True)\n    created_at = Column(TIMESTAMP(timezone=True), nullable=True, server_default=text('now()'))\n    user_id = Column(Integer, ForeignKey('users.id', ondelete='CASCADE'), nullable=False)\n    owner = relationship('User') # This will help retrieve the user over the fly\nclass User(Base):",
+        "peekOfCode": "class Post(Base):\n    __tablename__ = 'posts'\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, nullable=False)\n    content = Column(String, nullable=False)\n    published = Column(Boolean, default=True)\n    created_at = Column(TIMESTAMP(timezone=True), nullable=True, server_default=text('now()'))\n    user_id = Column(Integer, ForeignKey('users.id', ondelete='CASCADE'), nullable=False)\n    owner = relationship('User', back_populates='posts') # This will help retrieve the user over the fly\nclass User(Base):",
         "detail": "app.models",
         "documentation": {}
     },
@@ -1013,7 +1005,7 @@
         "kind": 6,
         "importPath": "app.models",
         "description": "app.models",
-        "peekOfCode": "class User(Base):\n    __tablename__ = 'users'\n    id = Column(Integer, primary_key=True, nullable=False, index=True)\n    email = Column(String, nullable=False, unique=True)\n    password = Column(String, nullable=False)\n    created_at = Column(TIMESTAMP(timezone=True), nullable=True, server_default=text('now()'))\n    first_name = Column(String, nullable=False)\n    last_name = Column(String, nullable=False)\n    # phone = Column(String, nullable=False)\nclass Votes(Base):",
+        "peekOfCode": "class User(Base):\n    __tablename__ = 'users'\n    id = Column(Integer, primary_key=True, nullable=False, index=True)\n    email = Column(String, nullable=False, unique=True)\n    password = Column(String, nullable=False)\n    created_at = Column(TIMESTAMP(timezone=True), nullable=True, server_default=text('now()'))\n    first_name = Column(String, nullable=False)\n    last_name = Column(String, nullable=False)\n    posts =  relationship('Post', back_populates='owner')\nclass Votes(Base):",
         "detail": "app.models",
         "documentation": {}
     },

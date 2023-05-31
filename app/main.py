@@ -3,12 +3,12 @@ from . import models
 from .database import engine
 from .routers import post, user, auth, vote
 from fastapi.middleware.cors import CORSMiddleware
-from .utils import hash
 
+
+# models.Base.metadata.drop_all(bind=engine)
 models.Base.metadata.create_all(bind=engine)
 
 
-# print(settings.new_path)
 
 app = FastAPI()
 
